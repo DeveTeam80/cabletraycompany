@@ -1,0 +1,1 @@
+function reveal(){for(var b=document.querySelectorAll(".reveal"),a=0;a<b.length;a++){var c=window.innerHeight;b[a].getBoundingClientRect().top<c-150?b[a].classList.add("active-one"):b[a].classList.remove("active-one")}}window.addEventListener("scroll",reveal)
