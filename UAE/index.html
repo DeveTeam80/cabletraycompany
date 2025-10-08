@@ -65,9 +65,9 @@
 		rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Rasa:300,400,500,600,700" rel="stylesheet">
 	<!-- //web-fonts -->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<style>
-		.rslides{height:65vh}
+		.rslides{height:80vh;}
         .para{
             color: #888;
     line-height: 2em;
@@ -76,7 +76,61 @@
     display: inline;
     font-family: "Open Sans",sans-serif;
         }
+		.banner {
+    background: url(../../images/hutaib-uae-banner.png) 0 0 / cover no-repeat;
+}
 	</style>
+
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of cable trays does Hutaib Electricals manufacture in the UAE?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Hutaib manufactures perforated cable trays, ladder cable trays, wire-mesh trays, trunking, and heavy-duty cable ladders with fittings, covers, and supports in GI, HDG, stainless steel 304/316, and aluminum for projects across Dubai, Abu Dhabi, Sharjah, RAK, Fujairah, Ajman, and UAQ."
+    }
+  },{
+    "@type": "Question",
+    "name": "Which cable tray material is best for coastal or outdoor UAE environments?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For salt and humidity, use HDG (hot-dip galvanized to BS EN ISO 1461) or stainless steel 316. For light yet corrosion-resistant rooftop work, marine-grade aluminum is excellent. Indoors, pre-galvanized trays are common."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do Hutaib trays meet international standards and authority requirements?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Trays are designed to BS EN 61537 and NEMA VE-1 with ISO 9001 quality controls. Earthing and bonding continuity is verified. Submittals can align with DEWA/ADDC and consultant specifications."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can Hutaib provide custom sizes, bends, and powder-coated finishes?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. We supply custom widths, heights, thicknesses, and rung spacing; bespoke bends, risers, reducers, and drop-outs; vented/solid covers; and powder coating in any RAL, plus full accessory kits."
+    }
+  },{
+    "@type": "Question",
+    "name": "How do I choose between perforated, ladder, and wire-mesh cable trays?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ladder for heavy loads and longer spans (≈2.5–3.0 m); perforated for medium loads and protection; wire-mesh for IT/ELV flexibility. Provide cable load per meter, span, and environment to receive a load-class recommendation."
+    }
+  },{
+    "@type": "Question",
+    "name": "What are Hutaib’s lead times, delivery, and pricing terms in the UAE?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Standard sizes are often in stock for dispatch within 24–72 hours. Custom fabrication typically takes 5–10 working days. UAE-wide delivery, bulk/contractor pricing, and on-site measurement/shop drawings are available."
+    }
+  }]
+}
+</script>
+
 </head>
 
 <body>
@@ -143,17 +197,18 @@
 								<a href="https://www.cabletraycompany.com" class="active"> Home </a>
 							</li>
 							<li>
-								<a href="">About</a>
+								<a href="#about" class="scroll">About</a>
 							</li>
 							<!-- <li>
 			  <a href="#" >Categories </a>
 			</li>-->
 							<li>
-								<div class="dropdown">
-									<button class="dropbtn"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-											aria-haspopup="true" aria-expanded="false">Products
-											<span class="caret"></span>
-										</a></button>
+								<!-- <div class="dropdown">
+									<button class="dropbtn">  -->
+										<a href="#type" class="scroll">Products
+											<!-- <span class="caret"></span> -->
+										</a>
+									<!-- </button>
 									<div class="dropdown-content">
 										<a href="">All Products</a>
 										<a href="../wire-mesh-cable-tray">Wire Mesh Cable Tray</a>
@@ -161,16 +216,15 @@
 										<a href="">Ladder Cable Tray</a>
 										<a href="">Raceways Cable Tray</a>
 									</div>
-								</div>
+								</div> -->
 							</li>
-							<li>
+							<!-- <li>
 								<a href="#">Blog</a>
-							</li>
+							</li> -->
 							<li>
 								<div _ngcontent-djm-c10="" class="extra-nav" style="margin-top: -13px;">
-									<div _ngcontent-djm-c10="" class="extra-cell"><a _ngcontent-djm-c10="" href="contact.html"
-											target="_blank" style="width: 100%;"
-											class="site-button align-self-center ml-auto button-style-2 primary"><span
+									<div _ngcontent-djm-c10="" class="extra-cell"><a _ngcontent-djm-c10="" href="#contact" target="_blank" style="width: 100%;"
+											class="scroll site-button align-self-center ml-auto button-style-2 primary"><span
 												_ngcontent-djm-c10="">Contact</span></a></div>
 								</div>
 							</li>
@@ -195,9 +249,7 @@
 					<div class="w3layouts-banner-top banner">
 						<div class="container">
 							<div class="agileits-banner-info">
-								<h3 class="index_p_style">Hutaib Electricals- Trusted <h1 class="index_p_style">Cable Tray Manufacturers Dubai,UAE</h1>.</h3>
-								<p>Manufacturing Quality Cable Trays And Accessories Since 2001
-								</p>
+								<h3 class="index_p_style">Hutaib Electricals <h1 class="index_p_style">Cable Tray Manufacturers in Dubai,UAE</h1>.</h3>	
 								<!--<div class="video-pop-wthree">
 									<a href="#small-dialog1" class="view play-icon popup-with-zoom-anim ">
 										<i class="fa fa-play-circle" aria-hidden="true"></i>Watch Our Video</a>
@@ -216,48 +268,8 @@
 						</div>
 					</div>
 				</li>
-				<li>
-					<div class="w3layouts-banner-top banner-2">
-						<div class="container">
-							<div class="agileits-banner-info">
-								<p class="index_p_style" style="display: inline;">Maximize Your Cable Management with <h2 class="index_p_style" style="display: inline;">Hutaib Electricals</h2></p>
-								<p>Wire mesh cable tray ,Perforated cable trays, Ladder type cable trays, Raceways,
-									Basket trays, Junction boxes </p>
-								<!--<div class="video-pop-wthree">
-									<a href="#small-dialog2" class="view play-icon popup-with-zoom-anim ">
-										<i class="fa fa-play-circle" aria-hidden="true"></i>Watch Our Video</a>
-									<div id="small-dialog2" class="mfp-hide w3ls_small_dialog wthree_pop">
-										<iframe src="></iframe>
-									</div>
-								</div>-->
-								<div class="thim-click-to-bottom">
-									<a href="#about" class="scroll">
-										<i class="fa  fa-chevron-down"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="w3layouts-banner-top banner-3">
-						<div class="container">
-							<div class="agileits-banner-info">
-								<p class="index_p_style" style="display: inline;">
-                                    Durable Cable Trays Supplier for all your electricals needs In UAE.
-                                    </p>
 
-
-							</div>
-							<div class="thim-click-to-bottom">
-								<a href="#about" class="scroll">
-									<i class="fa  fa-chevron-down"></i>
-								</a>
-							</div>
-						</div>
-					</div>
 		</div>
-		</li>
 		</ul>
 	</div>
 	<div class="clearfix"> </div>
@@ -319,19 +331,6 @@
 		</div>
 	</div>
 	<!-- //about -->
-
-	<!-- video section -->
-	<div class="video-w3l">
-		<h5>
-			Our commitment to quality, innovation, and customer service has helped us build long-term relationships with our clients and establish ourselves as a leader in the Cable Tray Manufacturing industry.
-
-
-		</h5>
-
-	</div>
-
-
-
 	<!-- experts section -->
 	<div class="what-w3ls">
 		<div class="container">
@@ -506,7 +505,7 @@
 
 
 	<!-- team -->
-	<div class="team" id="team">
+	<div class="team" id="type">
 		<div class="container">
 			<div class="title-div">
 				<h3 class="tittle">
@@ -524,8 +523,8 @@
 						<img src="../images/raceways-trunking-in-pune.jpg"
 							alt="raceways_cable_tray_manufacturers_in_UAE">
 						<div class="team-caption">
-							<h3>Raceway Cable Tray Manufacturers in Dubai</h3>
-							<a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a>
+							<h3>Raceway Cable Tray Manufacturers in UAE</h3>
+							<!-- <a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a> -->
 						</div>
 					</div>
 				</div>
@@ -533,8 +532,8 @@
 					<div class="team-info">
 						<img src="../images/ladder-cable-trays-in-pune.jpg" alt="ladder_cable_trays_manufacturer">
 						<div class="team-caption">
-							<h3>Cable Ladder</h3>
-							<a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a>
+							<h3>Cable Ladder Manufacturers in UAE</h3>
+							<!-- <a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a> -->
 
 						</div>
 					</div>
@@ -542,10 +541,10 @@
 				<div class="col-sm-3 col-xs-6 agileits-team-grid">
 					<div class="team-info">
 						<img src="../images/perforated-cable-trays-in-mumbai-pune.jpg"
-							alt="perforated_cable_trays_manufacturer_in_india">
+							alt="perforated_cable_trays_manufacturer">
 						<div class="team-caption">
-							<h3>Perforated Cable Tray</h3>
-							<a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a>
+							<h3>Perforated Cable Tray in UAE</h3>
+							<!-- <a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a> -->
 
 						</div>
 					</div>
@@ -553,10 +552,10 @@
 				<div class="col-sm-3 col-xs-6 agileits-team-grid">
 					<div class="team-info">
 						<img src="../images/wire-mesh-cable-tray-manufacturer-in-pune-maharashtra.jpg"
-							alt="wire_basket_cable_tray_manufacturer_in_india">
+							alt="wire_basket_cable_tray_manufacturer">
 						<div class="team-caption">
-							<h3> Cable Basket Tray</h3>
-							<a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a>
+							<h3> Cable Basket Tray Manufacturers in UAE</h3>
+							<!-- <a href="https://www.cabletraycompany.com" class="w3-buttons">Know More</a> -->
 
 						</div>
 					</div>
@@ -605,7 +604,7 @@ from galvanized steel, aluminium, or glass fiber reinforced plastic. Every mater
 checked on the basis of corrosion resistance required, as per our client’s requirement.">
 						<div class="hovereffect">
 							<img src="../images/ladder-cable-trays-manufacturer-in-pune.jpg"
-								class="img-responsive zoom-img" alt="ladder_type_cable_tray_manufacturers_in_mumbai" />
+								class="img-responsive zoom-img" alt="ladder_type_cable_tray_manufacturers_in_dubai" />
 							<div class="overlay">
 								<h2>Cable Ladder </h2>
 							</div>
@@ -686,7 +685,7 @@ take care of not to worn out , peel off or get damaged while laying of cable.">
 						data-title="We offer a comprehensive range of Cable Tray Reduce that is best known for its performance. Our Cable Tray Reducer (Concentric) is renowned in the industry for its quality and durability. They are used for connecting bigger cable trays with the smaller ones in an effortless and suitable manner. These Reducer (Concentric) Cable Tray are available in perforations of different sizes to suit the client’s requirements.">
 						<div class="hovereffect">
 							<img src="../images/Cable-Tray-Reducer.png" class="img-responsive zoom-img"
-								alt="cable_tray_reducer_supplier_in_india" />
+								alt="cable_tray_reducer_supplier_in_dubai" />
 							<div class="overlay">
 								<p>Reducer</p>
 							</div>
@@ -705,7 +704,7 @@ support piping systems and other disciplines to hang and support all types of pr
 cables.">
 						<div class="hovereffect">
 							<img src="../images/cable-tray-unistrut.jpg" class="img-responsive zoom-img"
-								alt="unistrut_cable_tray_manufacturer_supplier_in_UAE_india" />
+								alt="unistrut_cable_tray_manufacturer_supplier_in_UAE_dubai" />
 							<div class="overlay">
 								<p>Unistrut</p>
 							</div>
@@ -757,7 +756,7 @@ cables.">
 									<div class="testimonial-left">
 										<!--				<i class="fa fa-user" aria-hidden="true"></i>-->
 										<img src="../images/best-cable-tray-company-in-pune.png" height="111px"
-											width="130px" alt="wire_mesh_cable_tray_manufacturer_in_mumbai">
+											width="130px" alt="wire_mesh_cable_tray_manufacturer_in_dubai">
 									</div>
 									<p> They were extremely helpful throughout the entire process and provided us with exactly what we needed. The cable tray was delivered on time and exceeded our expectations. 
 
@@ -789,95 +788,213 @@ cables.">
 	</div>
 	<!-- //Testimonials -->
 
+	<!-- FAQ Section start -->
+		<div class="container">
+			<div style="margin-top: 40px;" class="col-md-12 col-sm-12 col-12 faq">
+				<p class="faq-title">FAQ:</p>
+
+				<div class="accordion" id="accordionExample">
+										<div class="card">
+						<div class="card-header" id="headingOne">
+
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+								aria-controls="collapseOne">
+
+								Q: What types of cable trays does Hutaib Electricals manufacture in the UAE?
+								<i class="fa fa-plus"></i>
+							</button>
+
+						</div>
+						<div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								A: Hutaib designs and manufactures perforated cable trays, ladder cable trays, wire-mesh trays, trunking, and heavy-duty cable ladders, with fittings (elbows, tees, reducers), covers, clamps, and supports.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+								aria-controls="collapseTwo">
+
+								Q: Which cable tray material is best for coastal or outdoor UAE environments?
+
+
+								<i class="fa fa-plus"></i>
+							</button>
+
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								A: For high humidity and salt exposure, choose HDG (hot-dip galvanized to BS EN ISO 1461) or stainless steel 316. For lightweight, corrosion-resistant installations (e.g., rooftop solar), marine-grade aluminum performs well. Indoor MEP rooms often use pre-galvanized trays.
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+								aria-controls="collapseThree">
+								Q: Can Hutaib provide custom sizes, bends, and powder-coated finishes?
+
+
+								<i class="fa fa-plus"></i>
+							</button>
+
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+							data-parent="#accordionExample">
+							<div class="card-body">
+
+								A: Absolutely. We offer custom widths, heights, thicknesses (gauge), and rung spacing, plus tailored bends, risers, reducers, cable drop-outs, and vented/solid covers. Powder coating (any RAL) is available for color-coding or extra corrosion protection, along with accessories like splice plates, clamps, and threaded-rod supports.
+
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFour">
+
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+								aria-controls="collapseFour">
+								Q: How do I choose between perforated, ladder, and wire-mesh cable trays?
+
+
+
+								<i class="fa fa-plus"></i>
+							</button>
+
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+							data-parent="#accordionExample">
+							<div class="card-body">
+
+								A: Ladder: best for heavy loads, long spans (typically 2.5-3.0 m), and superior ventilation.Perforated: ideal for medium loads and cable protection with some airflow.Wire-mesh: great for IT/ELV and quick routing changes. Share your cable schedule, load per meter, span length, and environment; we’ll recommend a tray load class and support spacing.
+
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFive">
+
+							<button class="btn btn-link btn-block text-left collapsed" type="button"
+								data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+								aria-controls="collapseFive">
+								Q: What are Hutaib’s lead times, delivery, and pricing terms in the UAE?
+
+
+
+								<i class="fa fa-plus"></i>
+							</button>
+
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+							data-parent="#accordionExample">
+							<div class="card-body">
+
+								A: Standard sizes are often ready ex-stock for dispatch within 24-72 hours. Custom fabrication typically takes 5-10 working days depending on volume and finish. We deliver across the UAE, support bulk/contractor pricing, and provide on-site measurements and shop drawings when required.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FAQ section end -->
+
 	<!-- partners -->
 	<div class="container">
         <div class="gallery-agile" id="projects">
             <section class="proj">
                 <img async="" id="img" src="/images/f10.png"
-                    alt="hutaib_electricals_Cable_Tray_Manufacturer_In_Pune_Mumbai_India" class="img-responsive">
+                    alt="hutaib_electricals_Cable_Tray_Manufacturer_In__dubai_uae" class="img-responsive">
             </section>
             <div class="slider-logo">
                 <div class="slide-track">
                     <div class="slide">
-                        <img src="/images/f1.png" height="100" width="200" alt="" />
+                        <img src="/images/f1.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f2.png" height="100" width="200" alt="" />
+                        <img src="/images/f2.png" height="100" width="200" alt="cable tray in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f3.png" height="100" width="200" alt="" />
+                        <img src="/images/f3.png" height="100" width="200" alt="cable tray manufacturers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f4.png" height="100" width="200" alt="" />
+                        <img src="/images/f4.png" height="100" width="200" alt="cable tray dealers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f5.png" height="100" width="200" alt="" />
+                        <img src="/images/f5.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f6.png" height="100" width="200" alt="" />
+                        <img src="/images/f6.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f7.png" height="100" width="200" alt="" />
+                        <img src="/images/f7.png" height="100" width="200" alt="cable trays" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f8.png" height="100" width="200" alt="" />
+                        <img src="/images/f8.png" height="100" width="200" alt="cable tray manufacturers in dubai" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f9.png" height="100" width="200" alt="" />
+                        <img src="/images/f9.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f1.png" height="100" width="200" alt="" />
+                        <img src="/images/f1.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f2.png" height="100" width="200" alt="" />
+                        <img src="/images/f2.png" height="100" width="200" alt="cable tray manufacturers in dubai" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f3.png" height="100" width="200" alt="" />
+                        <img src="/images/f3.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f4.png" height="100" width="200" alt="" />
+                        <img src="/images/f4.png" height="100" width="200" alt="cable tray manufacturers in dubai" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f5.png" height="100" width="200" alt="" />
+                        <img src="/images/f5.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f6.png" height="100" width="200" alt="" />
+                        <img src="/images/f6.png" height="100" width="200" alt="cable tray manufacturers in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f7.png" height="100" width="200" alt="" />
+                        <img src="/images/f7.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f8.png" height="100" width="200" alt="" />
+                        <img src="/images/f8.png" height="100" width="200" alt="cable tray manufacturers in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f9.png" height="100" width="200" alt="" />
+                        <img src="/images/f9.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f1.png" height="100" width="200" alt="" />
+                        <img src="/images/f1.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f2.png" height="100" width="200" alt="" />
+                        <img src="/images/f2.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f3.png" height="100" width="200" alt="" />
+                        <img src="/images/f3.png" height="100" width="200" alt="cable tray in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f4.png" height="100" width="200" alt="" />
+                        <img src="/images/f4.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f5.png" height="100" width="200" alt="" />
+                        <img src="/images/f5.png" height="100" width="200" alt="cable tray in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f6.png" height="100" width="200" alt="" />
+                        <img src="/images/f6.png" height="100" width="200" alt="best cable tray in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f7.png" height="100" width="200" alt="" />
+                        <img src="/images/f7.png" height="100" width="200" alt="cable tray suppliers" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f8.png" height="100" width="200" alt="" />
+                        <img src="/images/f8.png" height="100" width="200" alt="best cable tray in UAE" />
                     </div>
                     <div class="slide">
-                        <img src="/images/f9.png" height="100" width="200" alt="" />
+                        <img src="/images/f9.png" height="100" width="200" alt="cable tray in dubai" />
                     </div>
 
                 </div>
@@ -889,7 +1006,7 @@ cables.">
     <br />
     <br />
     <!-- blog section started -->
-    <div class="bloges">
+    <!-- <div class="bloges">
         <div class="container">
             <div class="row">
                 <div class="title-div">
@@ -950,8 +1067,8 @@ cables.">
                                                 target="_blank">
                                                 <img async height="310px"
                                                     src="/images/cable-trays-vs-conduit-making-the-right-choice-for-your-electrical-system2.png"
-                                                    alt="The-Safety-and-Efficiency-of-your-Electrical-System, Cable-Tray-Manufacturer-in-India"
-                                                    title="Affordable cable tray in india"></a>
+                                                    alt="The-Safety-and-Efficiency-of-your-Electrical-System, Cable-Tray-Manufacturer-in-dubai"
+                                                    title="Affordable cable tray in dubai"></a>
                                             <div class="bloge-info-wthree">
                                                 <h5>Cable Trays vs. Conduit: Making the Right Choice for Your Electrical
                                                     System</h5>
@@ -1015,8 +1132,8 @@ cables.">
                                                 target="_blank">
                                                 <img async height="310px"
                                                     src="/images/the-cost-of-cable-trays-vs-other-cable-management-solution2.png"
-                                                    alt=" Alternative cable tray in india"
-                                                    title="Affordable cable tray in india"></a>
+                                                    alt=" Alternative cable tray in dubai"
+                                                    title="Affordable cable tray in dubai"></a>
                                             <div class="bloge-info-wthree">
                                                 <h5>The Cost of Cable Trays vs. Other Cable Management Solution</h5>
                                                 <span>03-April-2024</span>
@@ -1038,11 +1155,50 @@ cables.">
                 <div class="clearfix"> </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 	<!-- //contact -->
-
-
+	 	<div class="container" style="width: auto;" id="contact">
+    <div class="txt-center">
+        <div class="title-div" style="margin-bottom: 50px;">
+            <h3 class="tittle">
+                <span>C</span>ontact Us
+            </h3>
+            <div class="tittle-style">
+            </div>
+        </div>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <br />
+    <div class="second-contact-agile">
+        <div class="col-md-6 form-bg reveal fade-left">
+            <div class="contact-form">
+                <form action="process.php" id="contact-form" method="post">
+                    <div class="contact-fields">
+                        <input type="text" id="form-name" name="form-name" placeholder="* Name" required>
+                    </div>
+                    <div class="contact-fields">
+                        <input type="email" name="form-email" name="email" id="form-email" required="required"
+                            placeholder="* Email">
+                    </div>
+                    <div class="contact-fields">
+                        <input type="text" name="Subject" placeholder="Subject" required>
+                    </div>
+                    <div class="contact-fields">
+                        <textarea placeholder="* Your message" name="form-message" id="message" id="form-message"
+                            rows="5" required="required"></textarea>
+                    </div>
+                    <input type="submit" value="Submit">  
+                </form>
+            </div>
+        </div>
+        <div class="column col-md-6 reveal fade-right">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.070885008146!2d55.10422630000001!3d24.997707199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f13e9f29f9b5b%3A0x452d28fe727ea190!2sHutaib%20Electrical%20Trading%20LLC!5e0!3m2!1sen!2sin!4v1759921218943!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                width="100%" height="450" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
 	<!-- footer -->
 	<footer class="footer-section">
 		<div class="container">
@@ -1053,7 +1209,7 @@ cables.">
                             <i class="fa fa-map-marker"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <a style="font-size: 13px;" href="#0">Building A1, Dubai Digital Park, Dubai Silicon Oasis, United Arab Emirates</a>
+                                <a style="font-size: 13px;" href="#0">Warehouse No 2, Plot no 1805-0 - Jabal Ali Industrial First - Dubai - United Arab Emirates</a>
                             </div>
                         </div>
                     </div>
@@ -1087,7 +1243,7 @@ cables.">
 							</div>
 							<div class="footer-text">
 								<p>
-                                    We are an exceptional variety of manufacturers and (suppliers of cable trays)H2, raceways, wire mesh, and industrial fabrications situated in the UAE.
+                                    We are an exceptional variety of manufacturers and suppliers of cable trays, raceways, wire mesh, and industrial fabrications situated in the UAE.
 
 								</p>
 							</div>
